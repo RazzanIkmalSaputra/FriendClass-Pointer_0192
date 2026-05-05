@@ -1,4 +1,13 @@
+#include <iostream>
+using namespace std;
 
+class pelajar; // Forward declaration
+
+class manusia
+{
+public:
+    void showNilaiPelajar(pelajar &x);
+};
 
 class pelajar
 {
@@ -11,3 +20,15 @@ public:
     friend void manusia::showNilaiPelajar(pelajar &x);
 };
 
+void manusia::showNilaiPelajar(pelajar &x)
+{
+    cout << x.nilai;
+}
+
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
+}
