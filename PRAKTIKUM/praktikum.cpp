@@ -1,8 +1,9 @@
-#include <iostream>
-#include <cmath>
-
-int main() {
 
 
-    return 0;
-}
+class LayangLayang;
+
+class BelahKetupat {
+
+
+class LayangLayang {
+
