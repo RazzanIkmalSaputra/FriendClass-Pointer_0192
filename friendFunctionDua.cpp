@@ -1,11 +1,13 @@
-#include <iostream>
-using namespace std;
 
-class pelajar; // Forward declaration
 
-class manusia
+class pelajar
 {
+private:
+    int nilai;
+
 public:
-    void showNilaiPelajar(pelajar &x);
+    pelajar() { nilai = 100; }
+    // Member function dari class manusia dijadikan friend
+    friend void manusia::showNilaiPelajar(pelajar &x);
 };
 
