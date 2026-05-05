@@ -33,3 +33,11 @@ public:
     }
 };
 
+class LayangLayang {
+private:
+    double d1, d2, sisiA, sisiB;
+
+public:
+
+};
+
