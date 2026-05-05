@@ -26,4 +26,10 @@ public:
         return 4 * sisi;
     }
 
-   
+    void output() {
+        cout << "\n--- Hasil Belah Ketupat ---" << endl;
+        cout << "Luas     : " << hitungLuas() << endl;
+        cout << "Keliling : " << hitungKeliling() << endl;
+    }
+};
+
