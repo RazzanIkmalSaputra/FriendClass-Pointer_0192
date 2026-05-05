@@ -57,4 +57,10 @@ public:
         return 2 * (sisiA + sisiB);
     }
 
- 
+    void output() {
+        cout << "\n--- Hasil Layang-Layang ---" << endl;
+        cout << "Luas     : " << hitungLuas() << endl;
+        cout << "Keliling : " << hitungKeliling() << endl;
+    }
+};
+
