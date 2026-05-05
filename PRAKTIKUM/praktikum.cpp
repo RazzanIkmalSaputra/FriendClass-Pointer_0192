@@ -39,5 +39,15 @@ private:
 
 public:
 
-};
+    friend double BelahKetupat::hitungKeliling();
+
+    void input() {
+        cout << "\n[ Input Layang-Layang ]" << endl;
+        cout << "Masukkan Diagonal 1 : "; cin >> d1;
+        cout << "Masukkan Diagonal 2 : "; cin >> d2;
+        cout << "Masukkan Sisi Miring A: "; cin >> sisiA;
+        cout << "Masukkan Sisi Miring B: "; cin >> sisiB;
+    }
+
+  
 
