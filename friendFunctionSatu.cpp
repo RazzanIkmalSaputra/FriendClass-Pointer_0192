@@ -7,3 +7,5 @@ class mahasiswa
 private:
     string nama;
 public:
+
+}
